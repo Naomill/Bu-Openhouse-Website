@@ -84,11 +84,11 @@ h1, h2, h3, h4, h5, h6, p, a {
     padding: 10px 25px; 
     border-radius: 30px;
     font-size: 1.1rem; 
-    font-weight: 5pp; 
+    font-weight: 5px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Shadow effect */
     transition: all 0.3s ease;
     line-height: 1.5; 
-    display: inline-flex; 
+    display: inline-flex;
     align-items: center; 
     text-decoration: none;
 }
@@ -191,7 +191,6 @@ h1, h2, h3, h4, h5, h6, p, a {
     padding: 10px 25px; 
     border-radius: 30px;
     font-size: 1.1rem; 
-    font-weight: 5pp; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Shadow effect */
     transition: all 0.3s ease;
     line-height: 1.5; 
@@ -202,7 +201,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 .cta-section-btn :hover {
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Hover shadow effect */
-}   
+}
+.cta-section-btn i {
+    margin-right: 10px
+}
 .cta-section {
     background-color: white ;
     color: #333333;
