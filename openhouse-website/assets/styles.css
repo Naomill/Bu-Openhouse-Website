@@ -586,7 +586,7 @@ section .col-md-6 p {
 
 .faq-header {
     color: #000000;
-    font: 'Kanit';
+    font-family: 'Kanit';
     text-align: center;
     font-size: 36px;
     font-weight: 600;
@@ -595,7 +595,7 @@ section .col-md-6 p {
 
 .faq-item {
     background-color: #a9a9a9;
-    font: 'Kanit';
+    font-family: 'Kanit';
     color: #F1F1F1;
     border: none;
     border-radius: 10px;
@@ -609,6 +609,7 @@ section .col-md-6 p {
 }
 
 .faq-header button {
+    font-family: 'Kanit';
     text-align: left;
     color: #ffffff;
     width: 100%;
@@ -636,6 +637,7 @@ section .col-md-6 p {
 
 .faq-header button i {
     margin-right: 10px;
+    
 }
 
 /* Icon for FAQ Toggle */
