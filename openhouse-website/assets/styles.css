@@ -440,8 +440,8 @@ section .col-md-6 p {
 
 .faculty-card img {
     border-radius: 50%;
-    width: 150px;
-    height: 180px;
+    width: 50%;
+    height: 50%;
     margin-bottom: 20px;
 }
 
@@ -475,12 +475,7 @@ section .col-md-6 p {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-.faculty-card img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
-}
+
 .faculty-card h4 {
     font-size: 20px;
     font-weight: 600;
