@@ -246,6 +246,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 /* Registration Form Styling */
 form {
+    font-family: 'Kanit';
     background-color: white;
     padding: 30px;
     border-radius: 10px;
@@ -268,10 +269,12 @@ form .form-control:focus {
 form label {
     font-weight: 600;
     font-size: 1.1rem;
+    font-family: 'Kanit';
     margin-bottom: 10px;
 }
 
 form textarea.form-control {
+    font-family: 'Kanit';
     resize: vertical;
 }
 
