@@ -203,7 +203,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 .cta-section-btn :hover {
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Hover shadow effect */
-}   
+}
+.cta-section-btn i {
+    margin-right: 10px;
+}
 .cta-section {
     background-color: white ;
     color: #333333;
